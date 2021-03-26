@@ -1,0 +1,32 @@
+.mHead{
+  height: 280px;
+  .banner{
+    display: block;
+    height: 100%;
+    // background: url(../../assets/images/w_ban.png)  no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+      color: #fff;
+      font-size: 23px;
+      margin-bottom: 10px;
+    }
+    p{
+      color: #fff;
+      font-size: 13px;
+      margin-bottom: 7px;
+    }
+    .btn{
+      width: 120px;
+      height: 35px;
+      display: inline-block;
+      border: 1px solid #fcf3f3;
+      background: none;
+      color: #fff;
+      margin-top: 15px;
+    }
+  }
+}

@@ -1,0 +1,145 @@
+html {
+  overflow: hidden;
+}
+body, dl, dt, dd, ul, ol, li, pre, form, fieldset, input, p, blockquote, th, td {
+  font-weight:400;
+  margin:0;
+  padding:0;
+}
+h1, h2, h3, h4, h4, h5 {
+  margin:0;
+  padding:0;
+}
+select {
+  font-size:12px;
+}
+table {
+  border-collapse:collapse;
+}
+fieldset, img {
+  border:0 none;
+}
+fieldset {
+  margin:0;
+  padding:0;
+}
+fieldset p {
+  margin:0;
+  padding:0 0 0 8px;
+}
+legend {
+  display:none;
+}
+address, caption, em, strong, th, i {
+  font-style:normal;
+  font-weight:400;
+}
+table caption {
+  margin-left:-1px;
+}
+hr {
+  border-bottom:1px solid #FFFFFF;
+  border-top:1px solid #E4E4E4;
+  border-width:1px 0;
+  clear:both;
+  height:2px;
+  margin:5px 0;
+  overflow:hidden;
+}
+ol, ul {
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+}
+caption, th {
+  text-align:left;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content:'';
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(100, 100, 100, .5);
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #818B99;
+    border-radius: 9px;
+    width: 9px;  //木有效果 FIVE
+}
+
+::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,.2);
+    border-radius: 4px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #818B99;
+    border: 3px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+}
+
+
+
+.phone {
+    // background-image: url('http://q8bn25vr4.bkt.clouddn.com/phone2.png');
+    background-repeat:no-repeat;
+    width: 500px;
+    height: 667px;
+    background-size: cover;
+    margin: 20px 0 0 40px;
+    .container {
+        width: 375px;
+        height: 667px;
+        background-color: white;
+    }
+}
+
+.progress {
+    margin-top: .09em;
+    border-left: .16em solid rgba(0, 194, 254, 1);
+    border-right: .16em solid rgba(0, 194, 254, 1);
+    height: 2em;
+    background:rgba(0,194,254,.15);
+    position: relative;
+    overflow: hidden;
+    &::after {
+      position: absolute;
+      display: inline-block;
+      content: "";
+      width: 2em;
+      height: 2em;
+      background: blue;
+      left: 0;
+      top: 0;
+      animation: progress 2.5s linear infinite;
+    }
+  }
+
+  @keyframes progress {
+    from {
+      left: -0.66em;
+    } to {
+      left: 100%;
+    }
+  }
+
+
+// rest ant ui
+.ant-collapse{
+  background: none !important;
+  border: none !important;
+}
